@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-06-04T02:47:55.394Z</updated>
+  <updated>2017-06-04T02:50:30.320Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2017/06/04/MarkDown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     <id>http://yoursite.com/2017/06/04/MarkDown学习笔记/</id>
     <published>2017-06-04T02:15:32.000Z</published>
-    <updated>2017-06-04T02:47:55.394Z</updated>
+    <updated>2017-06-04T02:50:30.320Z</updated>
     
     <content type="html"><![CDATA[<h2 id="什么是MarkDown"><a href="#什么是MarkDown" class="headerlink" title="什么是MarkDown"></a>什么是MarkDown</h2><p>Markdown是Aaron Swartz 跟John Gruber共同设计的排版语言。饮水思源，纪念 斯沃茨Remember Aaron Swartz 这个网站就是用纯markdown写的，听者伤心，闻者落泪。</p>
 <blockquote>
@@ -68,7 +68,9 @@
       <category term="study MarkDown" scheme="http://yoursite.com/categories/study-MarkDown/"/>
     
     
-      <category term="study MarkDown" scheme="http://yoursite.com/tags/study-MarkDown/"/>
+      <category term="study" scheme="http://yoursite.com/tags/study/"/>
+    
+      <category term="MarkDown" scheme="http://yoursite.com/tags/MarkDown/"/>
     
   </entry>
   
