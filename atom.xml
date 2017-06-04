@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-06-02T12:56:15.045Z</updated>
+  <updated>2017-06-04T02:47:55.394Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,63 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MarkDown学习笔记</title>
+    <link href="http://yoursite.com/2017/06/04/MarkDown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>http://yoursite.com/2017/06/04/MarkDown学习笔记/</id>
+    <published>2017-06-04T02:15:32.000Z</published>
+    <updated>2017-06-04T02:47:55.394Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="什么是MarkDown"><a href="#什么是MarkDown" class="headerlink" title="什么是MarkDown"></a>什么是MarkDown</h2><p>Markdown是Aaron Swartz 跟John Gruber共同设计的排版语言。饮水思源，纪念 斯沃茨Remember Aaron Swartz 这个网站就是用纯markdown写的，听者伤心，闻者落泪。</p>
+<blockquote>
+<p>Markdown 的目标是实现「易读易写」。<br>可读性，无论如何，都是最重要的。一份使用 Markdown 格式撰写的文件应该可以直接以纯文本发布，并且看起来不会像是由许多标签或是格式指令所构成。</p>
+<p>Markdown 语法的目标是：成为一种适用于网络的书写语言。<br>Markdown 不是想要取代 HTML，甚至也没有要和它相近，它的语法种类很少，只对应 HTML 标记的一小部分。Markdown 的构想不是要使得 HTML 文档更容易书写。在我看来， HTML 已经很容易写了。Markdown 的理念是，能让文档更容易读、写和随意改。HTML 是一种发布的格式，Markdown 是一种书写的格式。就这样，Markdown 的格式语法只涵盖纯文本可以涵盖的范围。</p>
+</blockquote>
+<h2 id="MarkDown基本语法"><a href="#MarkDown基本语法" class="headerlink" title="MarkDown基本语法"></a>MarkDown基本语法</h2><p>使用 Markdown 一般情况下是没有可视化编辑界面的（Markdown与HTML的不同点在于它的设计初忠就是要写作者使用转Markdown代码（这里称之为代码吧，其实不是，它就是纯文本）），有一些网站在使用的时候，写作界面分为两个区域，预览区域和编辑区域，编辑区域就是写 Markdown，预览区会动态的将编辑区的修改即时的转换为HTML后展示出来以达到可视化编辑 的效果，但是我们这里所讲的，仅仅只是Markdown的语法。段落、标题以及块引用要使用 Markdown创建段落应该是最简单的了，只需要某一段文字顶头书写然后前后空行即可，这里不再做过多说明。标题的创建也十分简单，这里有两种方法，最常用的就是在要作为标题的文字下一行（不空行）添加超一个的= 号或者 - 号，例如：</p>
+<pre><code>这是一个一级标题
+===============
+
+这是一个二级标题
+---------------
+</code></pre><p>将被转换为</p>
+<pre><code>&lt;h1&gt;这是一个一级标题&lt;/h1&gt;
+
+&lt;h2&gt;这是一个二级标题&lt;/h2&gt;
+</code></pre><p>另外一种创建标题的方法能创建出所有六级标题，它们分别是在要创建标题的那一行方案最前面顶行创建一个或者多个 # 号，并以相同数量的 # 结尾，比如：</p>
+<pre><code>### 这是三级标题 ###
+
+##### 这是五级标题
+</code></pre><p>将被转换为</p>
+<pre><code>&lt;h3&gt;这是三级标题&lt;/h3&gt;
+
+&lt;h5&gt;这是五级标题&lt;/h5&gt;
+</code></pre><p>你可以看到，后面的##是可以省略的<br>块级引用是在要引用的段落前加&gt;符号，比如</p>
+<pre><code>&gt; 这是块引用的第一行，将会成为块引用中的一个段落
+&gt; 
+&gt; 这是块引用的第二段
+&gt; ## 这是块引用中的一个二级标题
+</code></pre><p>将被转换为</p>
+<pre><code>&lt;blockquote&gt;
+&lt;p&gt;这是块引用的第一行，将会成为块引用中的一个段落&lt;/p&gt;
+&lt;p&gt;这是块引用的第二段&lt;/p&gt;
+&lt;h2&gt;这是块引用中的一个二级标题&lt;/h2&gt;
+&lt;/blockquote&gt;
+</code></pre><p>以上就是markdown常用的语法，还有很多，我会在使用过程中用到哪些就加上来，先写这么多，下次继续。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      无描述
+    
+    </summary>
+    
+      <category term="study MarkDown" scheme="http://yoursite.com/categories/study-MarkDown/"/>
+    
+    
+      <category term="study MarkDown" scheme="http://yoursite.com/tags/study-MarkDown/"/>
+    
+  </entry>
   
   <entry>
     <title>测试一下</title>
